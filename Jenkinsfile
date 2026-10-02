@@ -16,6 +16,7 @@ pipeline {
       }
     }
   }
+  }
           post{
               success{
                echo('Meditrack pipline completed successfully')
@@ -26,5 +27,5 @@ pipeline {
           
       }
   
-}
+
 }
