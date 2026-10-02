@@ -16,6 +16,17 @@ pipeline {
       }
     }
   }
+      stage('Success or fail')
+      {
+          post{
+              success{
+               echo('Meditrack pipline completed successfully')
+              }
+              failure{
+              echo('Meditrack pipline fail')
+              }
+          }
+      }
   
 }
 }
