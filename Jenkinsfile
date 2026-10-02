@@ -16,8 +16,6 @@ pipeline {
       }
     }
   }
-      stage('Success or fail')
-      {
           post{
               success{
                echo('Meditrack pipline completed successfully')
@@ -25,7 +23,7 @@ pipeline {
               failure{
               echo('Meditrack pipline fail')
               }
-          }
+          
       }
   
 }
