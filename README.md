@@ -9,7 +9,7 @@ MediTrack is a medicine management application designed to help users organize t
 - View medicine information and reminders.
 - Simple and user-friendly interface.
 - Built with React and Vite.
-- Add more features in future
+- Add more feature in future
 
 ## 🛠️ Tech Stack
 
