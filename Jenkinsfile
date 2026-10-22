@@ -12,7 +12,7 @@ pipeline {
   {
     steps{
       dir('meditrack'){
-      bat('npm run build')
+      bat('npm run w-build')
       }
     }
   }
